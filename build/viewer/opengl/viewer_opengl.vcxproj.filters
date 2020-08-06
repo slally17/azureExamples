@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\viewer\opengl\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\viewer\opengl\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\viewer\opengl\viewerwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\viewer\opengl\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\viewer\opengl\imgui_impl_glfw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\viewer\opengl\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\viewer\opengl\gl3w.c">
+      <Filter>Source Files\GL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\viewer\opengl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{037E6651-CF4D-30EE-9046-849F89C16A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{127ff260-3c88-4b68-bd4d-1a95327bd26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GL">
+      <UniqueIdentifier>{de172c2e-7fcd-4576-9486-c8a1c9f0e902}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

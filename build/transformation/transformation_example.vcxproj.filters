@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\transformation\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\transformation\transformation_helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\transformation\transformation_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\transformation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AEC6A796-44F5-32C4-8918-E30CA3369BE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{037E6651-CF4D-30EE-9046-849F89C16A78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

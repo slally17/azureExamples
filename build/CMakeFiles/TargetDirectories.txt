@@ -1,0 +1,11 @@
+F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/build/CMakeFiles/ALL_BUILD.dir
+F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/build/CMakeFiles/ZERO_CHECK.dir
+F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/build/calibration/CMakeFiles/calibration_info.dir
+F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/build/enumerate/CMakeFiles/enumerate_devices.dir
+F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/build/playback_external_sync/CMakeFiles/playback_external_sync.dir
+F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/build/k4arecord_custom_track/CMakeFiles/k4arecord_custom_track.dir
+F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/build/fastpointcloud/CMakeFiles/fastpointcloud.dir
+F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/build/streaming/CMakeFiles/streaming_samples.dir
+F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/build/transformation/CMakeFiles/transformation_example.dir
+F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/build/undistort/CMakeFiles/undistort.dir
+F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/build/viewer/opengl/CMakeFiles/viewer_opengl.dir

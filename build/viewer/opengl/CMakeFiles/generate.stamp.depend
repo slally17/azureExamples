@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/viewer/opengl/CMakeLists.txt
