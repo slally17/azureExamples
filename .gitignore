@@ -1,0 +1,24 @@
+# Don't track packages folder because it is too big to upload to git
+# Will have to reinstall the packages on your own computer
+build/packages/
+
+# The .vs folder doesn't need to be uploaded, it will be remade
+.vs/
+build/.vs/
+
+# the Win32 Build doesn't need to be included
+build/Win32/
+
+# These file types are currently not part of this project but might be later
+# Don't track .onnx because it is too big to upload to git
+*.onnx
+
+# Don't track .fbx files, they are outputs
+*.fbx
+
+# Don't track .gltf and .bin files, they are outputs
+*.gltf
+*.bin
+
+# Don't track .mkv files, they are the inputs
+*.mkv
