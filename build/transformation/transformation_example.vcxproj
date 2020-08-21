@@ -110,9 +110,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\azureExamples\build\packages\Libjpeg-Turbo.1.5.15\lib\native\v140\windesktop\msvcstl\Win32\Debug\md\libjpeg-turbo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\azureExamples\build\packages\Libjpeg-Turbo.1.5.15\lib\native\v140\windesktop\msvcstl\Win32\Debug\md;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>

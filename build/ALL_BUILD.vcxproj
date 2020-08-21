@@ -199,10 +199,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{EB8180AB-7AFC-36FC-8FA0-30CC16CA9AA0}</Project>
       <Name>undistort</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\build\viewer\opengl\viewer_opengl.vcxproj">
-      <Project>{FC14C094-FF66-3A58-813C-7FA1952B9D0E}</Project>
-      <Name>viewer_opengl</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

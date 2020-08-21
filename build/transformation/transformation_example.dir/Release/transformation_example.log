@@ -1,0 +1,5 @@
+﻿  Building Custom Rule F:/OneDrive - Virginia Tech/Classes/2020 Summer/Zach Project/git downloads/Azure-Kinect-Sensor-SDK-develop/examples/transformation/CMakeLists.txt
+  main.cpp
+  transformation_helpers.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'k4a::k4a.lib'

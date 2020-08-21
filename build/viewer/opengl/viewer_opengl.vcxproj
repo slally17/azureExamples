@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\viewer\opengl\.;F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\azureExamples\build\packages\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\viewer\opengl\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -315,8 +315,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="..\..\..\viewer\opengl\gl3w.c" />
     <ClCompile Include="..\..\..\viewer\opengl\imgui.cpp" />
-    <ClCompile Include="..\..\..\viewer\opengl\imgui_impl_glfw.cpp" />
-    <ClCompile Include="..\..\..\viewer\opengl\imgui_impl_opengl3.cpp" />
     <ClCompile Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\viewer\opengl\main.cpp" />
     <ClCompile Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\viewer\opengl\texture.cpp" />
     <ClCompile Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\viewer\opengl\viewerwindow.cpp" />
@@ -331,6 +329,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\viewer\opengl\gl3w.h" />
+    <ClInclude Include="..\..\..\viewer\opengl\glcorearb.h" />
+    <ClInclude Include="..\..\..\viewer\opengl\imgui.h" />
+    <ClInclude Include="..\..\..\viewer\opengl\k4aimgui_all.h" />
+    <ClInclude Include="..\..\..\viewer\opengl\khrplatform.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

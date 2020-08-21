@@ -10,17 +10,11 @@
     <ClCompile Include="F:\OneDrive - Virginia Tech\Classes\2020 Summer\Zach Project\git downloads\Azure-Kinect-Sensor-SDK-develop\examples\viewer\opengl\viewerwindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\viewer\opengl\imgui.cpp">
-      <Filter>Source Files\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\viewer\opengl\imgui_impl_glfw.cpp">
-      <Filter>Source Files\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\viewer\opengl\imgui_impl_opengl3.cpp">
-      <Filter>Source Files\imgui</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\viewer\opengl\gl3w.c">
-      <Filter>Source Files\GL</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\viewer\opengl\imgui.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -30,14 +24,25 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{037E6651-CF4D-30EE-9046-849F89C16A78}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\imgui">
-      <UniqueIdentifier>{127ff260-3c88-4b68-bd4d-1a95327bd26b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\GL">
-      <UniqueIdentifier>{de172c2e-7fcd-4576-9486-c8a1c9f0e902}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\viewer\opengl\gl3w.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\viewer\opengl\glcorearb.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\viewer\opengl\khrplatform.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\viewer\opengl\k4aimgui_all.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\viewer\opengl\imgui.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
